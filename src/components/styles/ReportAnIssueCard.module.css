@@ -1,0 +1,141 @@
+.card {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  background-color: #f8f8f8;
+  padding: 10px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+
+}
+
+.headText {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #f8f8f8;
+  color: #4D4D4D;
+}
+
+.formField {
+  background-color: #f8f8f8;
+  color: #4D4D4D;
+}
+
+
+.card hr {
+  margin: 10px 0;
+}
+
+.card label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  background-color: #f8f8f8;
+  color: #4D4D4D;
+}
+
+.card select,
+.card input,
+.textarea {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #4D4D4D;
+  background: #E0E0E0;
+  border: 1px solid #CCCCCC
+}
+
+
+.card option {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #333333;
+
+}
+
+.description {
+  background-color: #f8f8f8;
+  color: #4D4D4D;
+
+}
+
+.submitBTN {
+  background-color: #f8f8f8;
+  color: #4D4D4D;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.card textarea {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  width: 100%;
+  height: 90px;
+  padding: 8px;
+  border-radius: 8px;
+  gap: 8px;
+  color: #4D4D4D;
+  background: #E0E0E0;
+  border: none;
+}
+
+.attached {
+  color: #4D4D4D;
+  background: #E0E0E0;
+}
+
+
+
+.attachedButton {
+  width: 102px !important;
+  height: 32px !important;
+  padding: 4px, 10px, 4px, 4px !important;
+  border-radius: 4pxl !important;
+  background-color: #C7C7C7 !important;
+
+}
+
+.card button {
+  width: 114px;
+  height: 40px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 4px;
+  gap: 8px;
+  background-color: #0F0F0F;
+  cursor: pointer;
+  opacity: 0.6px;
+  border: none;
+
+
+}
+
+.card button:disabled {
+  background-color: #8f8989;
+  cursor: not-allowed;
+}
+
+@media (max-width: 450px) {
+  .card {
+    right: -31px;
+    width: 100vw;
+
+  }
+}

@@ -1,0 +1,31 @@
+.messageContainer {
+    position: absolute;
+    bottom: 75px;
+    right: 0px;
+    width: 480px;
+    background-color: #F8F8F8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.messageContent p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #F8F8F8;
+    color: #0F0F0F;
+
+}
+
+.arrow {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #f0f0f0;
+    transform: rotate(-45deg);
+    bottom: -8px;
+    right: 22px;
+    border: none;
+}

@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0px 4px 4px 0px #FFFFFF40;
+}
+
+.logo span {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 2.049896001815796px;
+    text-align: center;
+    color: #F8F8F8;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+}
+
+
+.logoutButton {
+    color: #FEFEFE80;
+    border: none;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+
+}
